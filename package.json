@@ -1,0 +1,19 @@
+{
+  "name": "upgradable-sc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.1.0",
+    "@openzeppelin/truffle-upgrades": "^1.7.0",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "chai": "^4.3.4",
+    "truffle": "^5.3.9"
+  }
+}
