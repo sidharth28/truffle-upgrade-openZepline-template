@@ -2,204 +2,186 @@
   "pokemons": [
   {
 "id": 1,
-"name": {
-"english": "Bulbasaur"
-},
+"num": "001",
+"name": "Bulbasaur",
+"img": "http://www.serebii.net/pokemongo/pokemon/001.png",
 "type": [
 "Grass",
 "Poison"
 ],
-"base": {
-"HP": 45,
-"Attack": 49,
-"Defense": 49,
-"Sp. Attack": 65,
-"Sp. Defense": 65,
-"Speed": 45
+"height": "0.71 m",
+"weight": "6.9 kg",
+"candy": "Bulbasaur Candy",
+"candy_count": 25,
+"egg": "2 km",
+"spawn_chance": 0.69,
+"avg_spawns": 69,
+"spawn_time": "20:00",
+"multipliers": [
+1.58
+],
+"weaknesses": [
+"Fire",
+"Ice",
+"Flying",
+"Psychic"
+],
+"next_evolution": [
+{
+"num": "002",
+"name": "Ivysaur"
+},
+{
+"num": "003",
+"name": "Venusaur"
 }
+]
 },
 {
 "id": 2,
-"name": {
-"english": "Ivysaur",
-"japanese": "フシギソウ",
-"chinese": "妙蛙草",
-"french": "Herbizarre"
-},
+"num": "002",
+"name": "Ivysaur",
+"img": "http://www.serebii.net/pokemongo/pokemon/002.png",
 "type": [
 "Grass",
 "Poison"
 ],
-"base": {
-"HP": 60,
-"Attack": 62,
-"Defense": 63,
-"Sp. Attack": 80,
-"Sp. Defense": 80,
-"Speed": 60
+"height": "0.99 m",
+"weight": "13.0 kg",
+"candy": "Bulbasaur Candy",
+"candy_count": 100,
+"egg": "Not in Eggs",
+"spawn_chance": 0.042,
+"avg_spawns": 4.2,
+"spawn_time": "07:00",
+"multipliers": [
+1.2,
+1.6
+],
+"weaknesses": [
+"Fire",
+"Ice",
+"Flying",
+"Psychic"
+],
+"prev_evolution": [
+{
+"num": "001",
+"name": "Bulbasaur"
 }
+],
+"next_evolution": [
+{
+"num": "003",
+"name": "Venusaur"
+}
+]
 },
 {
 "id": 3,
-"name": {
-"english": "Venusaur",
-"japanese": "フシギバナ",
-"chinese": "妙蛙花",
-"french": "Florizarre"
-},
+"num": "003",
+"name": "Venusaur",
+"img": "http://www.serebii.net/pokemongo/pokemon/003.png",
 "type": [
 "Grass",
 "Poison"
 ],
-"base": {
-"HP": 80,
-"Attack": 82,
-"Defense": 83,
-"Sp. Attack": 100,
-"Sp. Defense": 100,
-"Speed": 80
+"height": "2.01 m",
+"weight": "100.0 kg",
+"candy": "Bulbasaur Candy",
+"egg": "Not in Eggs",
+"spawn_chance": 0.017,
+"avg_spawns": 1.7,
+"spawn_time": "11:30",
+"multipliers": null,
+"weaknesses": [
+"Fire",
+"Ice",
+"Flying",
+"Psychic"
+],
+"prev_evolution": [
+{
+"num": "001",
+"name": "Bulbasaur"
+},
+{
+"num": "002",
+"name": "Ivysaur"
 }
+]
 },
 {
 "id": 4,
-"name": {
-"english": "Charmander",
-"japanese": "ヒトカゲ",
-"chinese": "小火龙",
-"french": "Salamèche"
-},
+"num": "004",
+"name": "Charmander",
+"img": "http://www.serebii.net/pokemongo/pokemon/004.png",
 "type": [
 "Fire"
 ],
-"base": {
-"HP": 39,
-"Attack": 52,
-"Defense": 43,
-"Sp. Attack": 60,
-"Sp. Defense": 50,
-"Speed": 65
+"height": "0.61 m",
+"weight": "8.5 kg",
+"candy": "Charmander Candy",
+"candy_count": 25,
+"egg": "2 km",
+"spawn_chance": 0.253,
+"avg_spawns": 25.3,
+"spawn_time": "08:45",
+"multipliers": [
+1.65
+],
+"weaknesses": [
+"Water",
+"Ground",
+"Rock"
+],
+"next_evolution": [
+{
+"num": "005",
+"name": "Charmeleon"
+},
+{
+"num": "006",
+"name": "Charizard"
 }
+]
 },
 {
 "id": 5,
-"name": {
-"english": "Charmeleon",
-"japanese": "リザード",
-"chinese": "火恐龙",
-"french": "Reptincel"
-},
+"num": "005",
+"name": "Charmeleon",
+"img": "http://www.serebii.net/pokemongo/pokemon/005.png",
 "type": [
 "Fire"
 ],
-"base": {
-"HP": 58,
-"Attack": 64,
-"Defense": 58,
-"Sp. Attack": 80,
-"Sp. Defense": 65,
-"Speed": 80
-}
-},
-{
-"id": 6,
-"name": {
-"english": "Charizard",
-"japanese": "リザードン",
-"chinese": "喷火龙",
-"french": "Dracaufeu"
-},
-"type": [
-"Fire",
-"Flying"
+"height": "1.09 m",
+"weight": "19.0 kg",
+"candy": "Charmander Candy",
+"candy_count": 100,
+"egg": "Not in Eggs",
+"spawn_chance": 0.012,
+"avg_spawns": 1.2,
+"spawn_time": "19:00",
+"multipliers": [
+1.79
 ],
-"base": {
-"HP": 78,
-"Attack": 84,
-"Defense": 78,
-"Sp. Attack": 109,
-"Sp. Defense": 85,
-"Speed": 100
-}
-},
-{
-"id": 7,
-"name": {
-"english": "Squirtle",
-"japanese": "ゼニガメ",
-"chinese": "杰尼龟",
-"french": "Carapuce"
-},
-"type": [
-"Water"
+"weaknesses": [
+"Water",
+"Ground",
+"Rock"
 ],
-"base": {
-"HP": 44,
-"Attack": 48,
-"Defense": 65,
-"Sp. Attack": 50,
-"Sp. Defense": 64,
-"Speed": 43
-}
-},
+"prev_evolution": [
 {
-"id": 8,
-"name": {
-"english": "Wartortle",
-"japanese": "カメール",
-"chinese": "卡咪龟",
-"french": "Carabaffe"
-},
-"type": [
-"Water"
-],
-"base": {
-"HP": 59,
-"Attack": 63,
-"Defense": 80,
-"Sp. Attack": 65,
-"Sp. Defense": 80,
-"Speed": 58
+"num": "004",
+"name": "Charmander"
 }
-},
+],
+"next_evolution": [
 {
-"id": 9,
-"name": {
-"english": "Blastoise",
-"japanese": "カメックス",
-"chinese": "水箭龟",
-"french": "Tortank"
-},
-"type": [
-"Water"
-],
-"base": {
-"HP": 79,
-"Attack": 83,
-"Defense": 100,
-"Sp. Attack": 85,
-"Sp. Defense": 105,
-"Speed": 78
+"num": "006",
+"name": "Charizard"
 }
-},
-{
-"id": 10,
-"name": {
-"english": "Caterpie",
-"japanese": "キャタピー",
-"chinese": "绿毛虫",
-"french": "Chenipan"
-},
-"type": [
-"Bug"
-],
-"base": {
-"HP": 45,
-"Attack": 30,
-"Defense": 35,
-"Sp. Attack": 20,
-"Sp. Defense": 20,
-"Speed": 45
-}
+]
 }
   ]
 }
