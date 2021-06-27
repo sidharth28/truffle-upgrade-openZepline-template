@@ -42,7 +42,7 @@
 "spawn_time": "20:00"
 },
    
-    "id": 3,
+    {    "id": 3,
 "name": "Charmeleon",
 "type": [
 "Fire"
@@ -54,7 +54,7 @@
 "avg_spawns": 69,
 "spawn_time": "20:00"
 },
-     "id": 4,
+    {  "id": 4,
 "name": "Charizard",
 "type": [
 "Fire"
